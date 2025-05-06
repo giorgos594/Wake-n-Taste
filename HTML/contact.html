@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake 'n' Taste-Επικοινωνια</title>
+    <link rel="stylesheet" href="../CSS/conCSS.css" .css">
+</head>
+
+<body>
+    <!-- menu header -->
+    <header>
+        <div>
+            <h1>Wake 'n' Taste<sup>&copy;</sup></h1>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Εκδηλωσεις</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Επικοινωνια</a></li>
+        </ul>
+    </nav>
+
+    <h1
+        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center; margin: 2rem;">
+        Επικοινωνηστε Μαζι Μας...</h1>
+
+    <!-- φορμα επικοινωνιας -->
+    <main>
+        <div>
+            <!-- σχολια απο πελατη -->
+            <form action="thanks.html" method="get">
+                <label for="txtFirstName">Ονομα:
+                    <br>
+                    <input type="text" name="txtFirstName" id="firstName" placeholder="Π.χ Γεωργιος" maxlength="30"
+                        required>
+                </label>
+                <label for="txtLastName">Επιθετο:
+                    <br>
+                    <input type="text" name="txtLastName" id="lastName" placeholder="Π.χ. Παπαδοπουλος" maxlength="30"
+                        required>
+                </label>
+                <label for="txtSubject">Θεμα:
+                    <br>
+                    <input type="text" name="txtSubject" id="lastName" maxlength="50" 
+                        placeholder="Π.χ  brunch">
+                </label>
+                <textarea name="comments" id="txtComments" cols="20" rows="6" placeholder="Τα Σχολια σας..."
+                    required></textarea>
+                <input type="submit" class="sr" value="Αποστολη">
+                <input type="reset" class="sr" value="Καθαρισμος">
+            </form>
+        </div>
+        <div>
+            <section>
+                <!-- Πληροφοριες για επικοιωνια -->
+                <h2>Πληροφοριες Επικοινωνιας</h2>
+                <p id="location"><b>Wake 'n' Taste</b><br>Μαστρογιαννοπουλου 1,Λυκοβρυση Αττικη,14122</p>
+                <br>
+                <p id="tel"><a href="tel:+30 210 3623232">+30 210 6821932</a></p>
+                <br>
+                <p id="email"><a href="mailto:info@wakentaste.gr">info@wakentaste.gr</a></p>
+                <br>
+                <p id="hours"><b>Ωρες λειτουργιας:</b>
+                    <br>
+                    Δευτερα - Παρασκευη: 8:00 - 22:00
+                    <br>
+                    Σαββατο - Κυριακη: 11:00 - 00:00
+                </p>
+
+            </section>
+        </div>
+
+    </main>
+    <!-- Ενα απλο σπαν που χρησιμοποιω για την εικονα στον χαρτη -->
+    <span>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1570.618897302804!2d23.775033297445255!3d38.06484283716399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a19f4d713f02d3%3A0x51ed43858f12d5d2!2zzpzOsc-Dz4TPgc6_zrPOuc6xzr3Ovc6_z4DOv8-NzrvOv8-F!5e0!3m2!1sel!2sgr!4v1746384938563!5m2!1sel!2sgr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </span>
+    <!-- Ενα μικρο div για τα σοσιλα  -->
+    <div class="social" style="background-color: aliceblue;">
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+            <img src="../images/icons8-instagram-48.png" alt="Instagram" style="width: 48px; height: 48px;">
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank" aria-label="TikTok">
+            <img src="../images/icons8-tik-tok-50.png" alt="TikTok" style="width: 48px; height: 48px;">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+            <img src="../images/icons8-facebook-48.png" alt="Facebook" style="width: 48px; height: 48px;">
+        </a>
+        <a href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+            <img src="../images/icons8-twitter-50.png" alt="Twitter" style="width: 48px; height: 48px;">
+        </a>
+    </div>
+
+    <!-- footer -->
+ <footer>
+    <p>&copy; 2025 Wake 'n' Taste - All rights reserved</p>
+</footer>
+
+
+</body>
+
+</html>

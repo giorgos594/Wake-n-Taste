@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake 'n' Taste - Κριτικες</title>
+    <link rel="stylesheet" href="../CSS/revCSS.css">
+
+</head>
+
+<body>
+    <!-- menu header -->
+    <header>
+        <div>
+            <h1>Wake 'n' Taste<sup>&copy;</sup></h1>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Εκδηλωσεις</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Επικοινωνια</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+   <!-- Οι κριτικες τριων επισκεπτωμ -->
+        <h1>Πως μας αξιολογησαν οι πελατες μας...</h1>
+
+
+        <div class="rev1">
+            <img src="../images/harps-joseph-tAvpDE7fXgY-unsplash.jpg" alt="a random man with beard and glasses">
+            <!-- https://unsplash.com/s/photos/random-people -->
+            <div class="text1">
+                <h3>Βαλαντης Παπανικολαου: </h3>
+                <p>Το Wake 'n' Taste είναι από τα λίγα μέρη στην πόλη που καταφέρνουν να συνδυάσουν τόσο άψογα την
+                    ποιότητα,
+                    την αισθητική και τη φιλοξενία. Ο χώρος ζεστός και προσεγμένος, αποπνέει σπιτική θαλπωρή χωρίς να
+                    χάνει το μοντέρνο του στυλ. Το προσωπικό εξυπηρετικό και πάντα με χαμόγελο.</p>
+                <p class="date">-Γραφτηκε στις 25 Απριλιου 2022</p>
+            </div>
+        </div>
+
+        <div class="rev1">
+            <img id="img2" src="../images/slav-romanov-BrEAp01_m5w-unsplash.jpg" alt="blonde woman smiling">
+            <div class="text1">
+                <h3>Γεωργια Τσιογγα:</h3>
+                <p>Ανακάλυψα το Wake 'n' Taste τυχαία και από τότε έγινε το αγαπημένο μου σημείο για brunch! Ο χώρος
+                    ζεστός και προσεγμένος, με ιδιαίτερη αισθητική και χαλαρωτική μουσική. Το προσωπικό ευγενέστατο και
+                    πάντα χαμογελαστό. Το μενού πλούσιο, με επιλογές για κάθε γούστο – ξεχώρισα την ομελέτα με φέτα και
+                    το french toast με φρούτα.</p>
+                <div class="date">
+                    <p>-Γραφτηκε στις 8 Απριλιου 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rev1" id="gs">
+            <img src="../images/mubariz-mehdizadeh-t3zrEm88ehc-unsplash.jpg" alt="indian guy with glasses">
+            <div class="text1">
+                <h3>Χριστοδουλος Τασουλης:</h3>
+                <p>Ο χώρος του Wake 'n' Taste είναι ζεστός και καλαίσθητος, με προσεγμένες λεπτομέρειες που σε κάνουν να
+                    νιώθεις άνετα από την πρώτη στιγμή. Η εξυπηρέτηση ήταν γρήγορη και ευγενική, ενώ το φαγητό
+                    πραγματικά ξεχώρισε. Δοκιμάσαμε το avocado toast και τα pancakes με μέλι — και τα δύο εξαιρετικά!
+                </p>
+                <p class="date">-Γραφτηκε στις 12 Ιανουαριου 2024</p>
+            </div>
+        </div>
+
+        
+
+       <!-- εδω θα φτιαξω μαι φορμα επικοινωνιας που κανεις κριτικη γραφοντας ονομα επιθετο σχολιο και βαθμολογεις -->
+        <article style="background-color: bisque;">
+
+              
+            <form action="thanks.html" method="get">
+                <h3>Αφηστε τη δικη σας κριτικη</h3>
+                <div>
+                    <label for="txtFirstName">Ονομα</label>
+                    <input type="text" id="txtFirstName" name="firstName" maxlength="30" placeholder="Π.χ. Γεωργιος "
+                        required>
+                </div>
+                <div>
+                    <label for="txtLastName">Επιθετο</label>
+                    <input type="text" id="txtLastName" name="lastName" maxlength="30" placeholder="Π.χ. Σταμος"
+                        required>
+                </div>
+                  
+                <!-- Χρηση ραντιο μπατον για την βαθμολογηση του μαγαζιου -->
+
+                <div id="rad" style="background-color: rgb(246, 250, 250);">
+                    <p>Πως ηταν εμπειρια σας?</p>
+                    <div>
+                        <label for="rating1">Αδιαφορη(1)</label>
+                        <input type="radio" id="rating1" name="rating" value="1" required>
+                    </div>
+                    <div>
+                        <label for="rating2">Μετρια(2)</label>
+                        <input type="radio" id="rating2" name="rating" value="2">
+                    </div>
+                    <div>
+                        <label for="rating3">Καλη(3)</label>
+                        <input type="radio" id="rating3" name="rating" value="3">
+                    </div>
+                    <div>
+                        <label for="rating4">Πολυ καλη(4)</label>
+                        <input type="radio" id="rating4" name="rating" value="4">
+                    </div>
+                    <div>
+                        <label for="rating5">Θα ξανα παω σιγουρα(5)</label>
+                        <input type="radio" id="rating5" name="rating" value="5">
+                    </div>
+
+                </div>
+
+                <!-- Σχολια πελατη -->
+                <textarea name="comments" id="txtComments" cols="20" rows="6" placeholder="Τα Σχολια σας..."
+                    required></textarea>
+                <input class="sup" type="submit" value="Αποστολη">
+                <input class="sup" type="reset" value="Καθαρισμος">
+
+            </form>
+
+
+        </article>
+
+    </main>
+
+ <!-- footer -->
+ <footer>
+    <p>&copy; 2025 Wake 'n' Taste - All rights reserved</p>
+</footer>
+
+</body>
+
+</html>

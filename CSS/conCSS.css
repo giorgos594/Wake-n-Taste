@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 211, 185);
+}
+
+
+/* styling  για το χεντερ, παρομοιο σε ολες τι σελιδες*/
+header {
+    background-image: url(../images/bread-2598861_1280.jpg);
+    /* η εικονα δεν εχει πνευματικα δικαιωματα source: https://pixabay.com/photos/bread-pastry-food-brunch-plate-2598861/ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15rem;
+    color: #34312c;
+
+
+}
+
+header div {
+    background-color: rgb(159, 134, 105);
+    border-radius: 8px;
+    padding: 0.6rem;
+    box-shadow: 0.2rem 0.2rem;
+    margin: 1rem;
+    padding: 0.1rem;
+
+}
+
+header h1 {
+    display: flex;
+    font-family: Font, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 1000;
+    flex-wrap: wrap;
+    margin-right: 0.4rem;
+
+
+
+}
+
+/* ομοιως και για το nav */
+nav {
+    background-color: #f8f1e7;
+    color: #5a3e36;
+    padding: 1rem;
+    width: 40%;
+    margin: 1px auto;
+    border-radius: 8px;
+    overflow: auto;
+    
+
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px;
+    padding: 0;
+    flex-wrap: wrap;
+
+}
+
+
+
+nav a {
+    color: #5a3e36;
+    text-decoration: none;
+}
+
+
+
+nav a:hover {
+    color: #d2955d;
+    font-size: 1.1em;
+}
+
+nav a:active {
+    color: #ffcc5c;
+}
+
+main
+{
+  display: flex;
+  height: auto;
+  width: 95%;
+  margin: 1rem auto;
+}
+
+main div
+{
+    display: flex;
+    background-color: #f6f4f2;
+    height: 90%;
+    width: 38%;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    border: 4px solid rgb(183, 183, 170);
+    box-shadow: 0 3px 3px black;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius:3px;
+    
+    
+}
+
+main form
+{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: auto;
+  
+}
+
+main label
+{   
+  margin-bottom: 0;
+  margin-top: 0;
+ 
+  margin-left: 0.5rem;
+  
+    
+}
+
+main input:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+
+main textarea
+{
+    
+    padding: 0.2rem;
+    margin-top: 0.8rem;
+    width: 90%;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.sr
+{
+   width: 60%;
+   padding: 0.2rem;
+   margin-top: 0.4rem;
+   margin-bottom: 0.4rem;
+   border-radius: 5px;
+   background-color: rgb(54, 54, 234);
+   color: #f8f1e7;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   box-shadow: 0 2px 2px rgb(84, 82, 82);
+   margin-left: 0.5rem;
+}
+
+.sr:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+section h2
+{
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-bottom: 0.5rem;
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    
+    overflow: auto;
+    padding: 0.3rem;
+    flex-wrap: wrap;
+
+}
+
+section p
+{
+    text-align:center;
+    ;
+    padding: 0.2rem;
+    flex: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#tel:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#email:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+#location::before
+{
+    content: '\1F4CD'; /* Unicode for map pin emoji */
+}
+
+#tel::before
+{
+    content: '\260E'; /* Unicode for telephone emoji */
+}
+
+#email::before
+{
+    content: '\2709'; /* Unicode for envelope emoji */
+}
+
+#hours::before
+{
+    content: '\1F553'; /* Unicode for clock emoji */
+}
+
+
+
+
+span
+{
+    
+    display: flex;
+    background-color: black;
+    width: fit-content;
+    height: fit-content;
+    margin: 3rem auto;
+    border-radius: 5px;
+    border: 2px solid #f8f1e7;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.social
+{
+    justify-self: center;
+    margin: 2rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px black;
+    width: max-content;
+}
+
+.social a{
+    margin: 0.8rem;
+}
+
+
+.social img:hover
+{
+    transform: scale(1.09);
+    transition: transform 0.3s ease;
+}
+
+footer {
+
+    display: flex;
+    background: #966d63;
+    padding: 0.5rem;
+    justify-self: flex-end;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 1000;
+    border: solid 2px black;
+    margin: 4rem 0.1rem 0.1rem 0.1rem;
+
+
+}
+
+footer:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+
+@font-face {
+    font-family: 'Font';
+    src: url(../FONTS/Pacifico-Regular.ttf) format('truetype');
+}

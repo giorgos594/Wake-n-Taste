@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* το css για το body ειναι ενσωματωμενο στην html */
+
+h2,
+h3 {
+    color: #5a3e36;
+}
+
+/* styling  για το χεντερ, παρομοιο σε ολες τι σελιδες*/
+header {
+    background-image: url(../images/bread-2598861_1280.jpg);
+    /* η εικονα δεν εχει πνευματικα δικαιωματα source: https://pixabay.com/photos/bread-pastry-food-brunch-plate-2598861/ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15rem;
+    color: #34312c;
+
+
+}
+
+header div {
+    background-color: rgb(159, 134, 105);
+    border-radius: 8px;
+    padding: 0.6rem;
+    box-shadow: 0.2rem 0.2rem;
+    margin: 1rem;
+    padding: 0.1rem;
+
+}
+
+header h1 {
+    display: flex;
+    font-family: Font, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 1000;
+    flex-wrap: wrap;
+    margin-right: 0.4rem;
+
+
+
+}
+
+
+nav {
+    background-color: #f8f1e7;
+    color: #5a3e36;
+    padding: 1rem;
+    width: 40%;
+    margin: 1px auto;
+    border-radius: 8px;
+
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #5a3e36;
+    text-decoration: none;
+}
+
+
+
+section {
+    padding: 3%;
+    text-align: center;
+
+}
+
+section div {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+section h3 {
+    color: #7b8545;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.section2 {
+
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    box-sizing: border-box;
+
+
+}
+
+.section2 h2 {
+    font-size: 2rem;
+    color: #7b8545;
+    margin-bottom: 1rem;
+}
+
+.section2 p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+footer {
+
+    display: flex;
+    background: #966d63;
+    padding: 0.5rem;
+    justify-self: flex-end;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 1000;
+    border: solid 2px black;
+    margin: 4rem 0.1rem 0.1rem 0.1rem;
+
+
+}
+
+footer:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+    section div {
+        width: 90%;
+    }
+
+    .section2 {
+        width: 90%;
+    }
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url(../FONTS/Pacifico-Regular.ttf);
+}
+
+
+
+

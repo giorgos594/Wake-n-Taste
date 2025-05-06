@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(211, 211, 185);
+    
+}
+
+
+/* styling  για το χεντερ, παρομοιο σε ολες τι σελιδες*/
+header {
+    background-image: url(../images/bread-2598861_1280.jpg);
+    /* η εικονα δεν εχει πνευματικα δικαιωματα source: https://pixabay.com/photos/bread-pastry-food-brunch-plate-2598861/ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15rem;
+    color: #34312c;
+
+
+}
+
+header div {
+    background-color: rgb(159, 134, 105);
+    border-radius: 8px;
+    padding: 0.6rem;
+    box-shadow: 0.2rem 0.2rem;
+    margin: 1rem;
+    padding: 0.1rem;
+
+}
+
+header h1 {
+    display: flex;
+    font-family: Font, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 1000;
+    flex-wrap: wrap;
+    margin-right: 0.4rem;
+
+
+
+}
+
+nav {
+    background-color: #f8f1e7;
+    color: #5a3e36;
+    padding: 1rem;
+    width: 40%;
+    margin: 1px auto;
+    border-radius: 8px;
+
+
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px;
+    padding: 0;
+    flex-wrap: wrap;
+    word-break: break-word;
+}
+
+nav a {
+    color: #5a3e36;
+    text-decoration: none;
+}
+
+
+
+nav a:hover {
+    color: #d2955d;
+    font-size: 1.1em;
+}
+
+nav a:active {
+    color: #ffcc5c;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+    font-size: larger;
+    color: rgb(65, 144, 117);
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+
+}
+
+main {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5a3e36;
+    flex-wrap: wrap;
+
+}
+
+main section {
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);
+    background-color: rgb(199, 204, 204);
+    text-align: center;
+    width: 50%;
+
+}
+
+main h2 {
+    font-size: 2rem;
+    padding: 2rem;
+    color: #3f2c27;
+}
+
+main ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 0.5rem;
+    gap: 20px;
+}
+
+main ul li {
+    padding: 0.7rem 1rem;
+    margin: 0.3rem 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    word-break: break-word;
+
+}
+
+main section p {
+    font-size: larger;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#br::after {
+    content: "🍞";
+}
+
+#sw::after {
+    content: " 🍰";
+}
+
+main ul li:hover {
+
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    flex-wrap: wrap;
+    overflow: auto;
+    
+}
+
+.sales table {
+    border: 4px solid;
+    text-align: center;
+    margin: 1rem auto 2rem auto;
+    padding: 0.5rem;
+    width: 65%;
+    background-color: rgb(199, 204, 204);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+.sales table thead
+{
+  background-color: aliceblue;
+  font-size: 1.2rem;
+}
+
+.sales table th
+{
+    padding: 1.5rem;
+}
+
+.sales table td
+{
+    background-color: beige;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.sales td:hover
+{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
+
+
+footer {
+
+    display: flex;
+    background: #966d63;
+    padding: 0.5rem;
+    justify-self: flex-end;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 1000;
+    border: solid 2px black;
+    margin: 0.1rem;
+
+
+}
+
+footer:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  
+section{
+  overflow: auto;
+  flex-wrap: wrap;
+}
+    
+}
+@font-face {
+    font-family: 'Font';
+    src: url(../FONTS/Pacifico-Regular.ttf);
+}

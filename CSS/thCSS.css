@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+   
+}
+
+body {
+    background-color: rgb(211, 211, 185);
+    height: 100%;
+}
+
+
+
+/* styling  για το χεντερ, παρομοιο σε ολες τι σελιδες*/
+header {
+    background-image: url(../images/bread-2598861_1280.jpg);
+    /* η εικονα δεν εχει πνευματικα δικαιωματα source: https://pixabay.com/photos/bread-pastry-food-brunch-plate-2598861/ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 15rem;
+    color: #34312c;
+
+
+}
+
+header div {
+    background-color: rgb(159, 134, 105);
+    border-radius: 8px;
+    padding: 0.6rem;
+    box-shadow: 0.2rem 0.2rem;
+    margin: 1rem;
+    padding: 0.1rem;
+
+}
+
+header h1 {
+    display: flex;
+    font-family: Font, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 1000;
+    flex-wrap: wrap;
+    margin-right: 0.4rem;
+
+
+
+}
+
+
+main {
+    border: 1px solid; 
+    width: 90%;
+    margin: 5rem auto;
+    height: 50rem;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgb(118, 80, 2);
+    background-image: url(../images/people-cafee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: visible;
+    flex-wrap: wrap;
+
+}
+
+main:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+main h1 {
+    margin-top: 25%;
+    text-shadow: 1px 2px 4px;
+    color: rgba(160, 50, 42, 0.722);
+    text-transform: uppercase;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(1.3);
+
+}
+
+.return {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3rem;
+    width: 30%;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    
+
+}
+
+a {
+    text-decoration: none;
+    font-family: Font, Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+}
+
+a:hover {
+    color: burlywood;
+    font-size: large;
+
+}
+
+a:focus {
+    color: rgb(75, 63, 46);
+    overflow: hidden;
+}
+
+span {
+    font-size: large;
+}
+
+
+
+@font-face {
+    font-family: 'Font';
+    src: url(../FONTS/Pacifico-Regular.ttf) format('truetype');
+    ;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
+    main {
+        width: 90%;
+        height: auto;
+        margin: 1.5rem auto;
+        padding: 1rem;
+    }
+
+    main h1 {
+        margin-top: 12%;
+        font-size: 1.5rem;
+
+    }
+
+    .return {
+        width: 85%;
+        margin-top: 3rem;
+        height: 3rem;
+    }
+
+
+
+    header {
+
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+}
