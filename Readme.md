@@ -1,1 +1,1 @@
-Hallo my name is George this my Project Wak-N_taste mnsbs
+Hallo my name is George this my Project Wak-N-Taste in the HTML-CSS course
